@@ -1,0 +1,32 @@
+{
+    "src": {
+        "app": "./app",
+        "images": "./app/images",
+        "fonts": "./app/fonts",
+        "icons": "./app/icons",
+        "scss": "./app/styles",
+        "js": "./app/scripts",
+        "node_modules": "./node_modules",
+        "generator_templates": "./gulp/templates"
+    },
+    "dest": {
+        "public": "./public",
+        "images": "./public/images",
+        "css": "./public/styles",
+        "js": "./public/scripts"
+    },
+    "browsers": [
+        "ie >= 8",
+        "ie_mob >= 10",
+        "ff >= 30",
+        "chrome >= 34",
+        "safari >= 7",
+        "opera >= 23",
+        "ios >= 7",
+        "android >= 4.4",
+        "bb >= 1"
+    ],
+    "external_js": [
+        ""
+    ]
+}
