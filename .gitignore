@@ -1,0 +1,14 @@
+.ftppass
+.vscode
+.DS_Store
+
+*.sass-cache/
+*.sublime-workspace
+*.sublime-project
+
+composer.lock
+
+node_modules
+bower_components
+public
+dist
